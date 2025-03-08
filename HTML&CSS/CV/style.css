@@ -1,0 +1,291 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35vh;
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color: #f59e0b;
+    color: white;
+}
+header img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-left:50px ;
+}
+header h5{
+    padding: 10px;
+    font-size: 35px;
+}
+
+header h6{
+    padding: 10px;
+    font-size: 20px;
+}
+header p{
+    padding: 10px;
+    font-size: 17px ;
+}
+.header-content{
+    margin-left: 100px;
+    flex: 50%;
+
+}
+.main {
+    background-color: rgb(213, 207, 207);
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.main-part1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-section {
+    padding: 20px;
+    margin-left: 40px;
+}
+
+.contact-section h2 {
+    padding: 10px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.contact-item i {
+    color: #f59e0b;
+    font-size: 18px;
+    margin-right: 12px;
+}
+
+.contact-item span {
+    font-size: 14px;
+    color: #333;
+}
+
+.achievements-section {
+    padding: 30px;
+    max-width: 500px;
+    margin-right: 50px;
+    
+}
+
+.achievements-section h2 {
+    color: white;
+    background-color: #f59e0b;
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.achievements-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.achievement-item {
+    padding: 10px;
+    color: rgba(61, 62, 62, 0.488);
+    margin-bottom: 1px;
+}
+
+.achievement-item h3{
+    color: rgb(52, 51, 51);
+    margin-bottom: 3px;
+}
+
+.languages {
+    padding: 20px;
+    margin-left: 40px;
+}
+
+.languages h4{
+    padding-bottom: 5px;
+}
+
+.english{
+    width: 200px;
+    height: 15px;
+    background-color: #333;
+}
+.eng-item{
+    width: 150px;
+    height: 15px;
+    background-color: #f99615;
+}
+
+.german{
+    width: 200px;
+    height: 15px;
+    background-color: #333;
+}
+.ger-item{
+    width: 100px;
+    height: 15px;
+    background-color: #4ed8f4;
+}
+
+.spanish{
+    width: 200px;
+    height: 15px;
+    background-color: #333;
+}
+.sp-item{
+    width: 180px;
+    height: 15px;
+    background-color: #e90b16;
+}
+/* 
+.languages h2 {
+    padding: 10px;
+}
+
+
+.english > progress{
+    width: 100%;
+    background-color: rgb(166, 27, 230);
+}
+
+.spanish >progress {
+    width: 100%;
+    background-color: rgb(230, 74, 27);
+}
+
+.german > progress{
+    width: 100%;
+    background-color: rgb(105, 230, 27);
+} */
+
+.education-section {
+    padding: 30px;
+    max-width: 500px;
+    margin-right: 80px;
+    
+}
+
+.education-section h2 {
+    color: white;
+    background-color: #f59e0b;
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.education-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.education-item {
+    padding: 10px;
+    color: rgba(61, 62, 62, 0.488);
+    margin-bottom: 1px;
+}
+
+.education-item h3{
+    color: rgb(52, 51, 51);
+    margin-bottom: 3px;
+}
+
+.main-part2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-part3{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.work-section {
+    padding: 30px;
+    max-width: 500px;
+    margin-right: 30px;
+
+    
+    
+}
+
+.work-section h2 {
+    color: white;
+    background-color: #f59e0b;
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 430px;
+}
+
+.work-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.work-item {
+    padding: 10px;
+    color: rgba(61, 62, 62, 0.488);
+    margin-bottom: 1px;
+}
+
+.work-item h3{
+    color: rgb(52, 51, 51);
+    margin-bottom: 3px;
+}
+
+.online-info{
+    margin-left: 40px;
+}
+
+.online-info h2{
+    padding: 10px;
+}
+.online-info img {
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+footer{
+    display: flex;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.foot-1{
+    background-color: #89f870;
+    width: 500px;
+    height: 20px;
+}
+.foot-2{
+    background-color: #f14a4a;
+    width: 500px;
+    height: 20px;
+}
+.foot-3{
+    background-color: #73eee8;
+    width: 500px;
+    height: 20px;
+}
+
