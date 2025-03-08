@@ -1,0 +1,30 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+@keyframes moveChick {
+    0% {
+        left: 0; 
+        transform: scaleX(1);
+    }
+    50% {
+        left: calc(100% - 100px);           /*   full width   */
+        transform: scaleX(1);
+        
+    }
+    100% {
+        left: 0; 
+        transform: scaleX(-1);
+    }
+}
+
+img {
+    width: 200px;
+    height: 300px;
+    position: absolute; 
+    animation: moveChick 4s linear infinite;
+}
+
